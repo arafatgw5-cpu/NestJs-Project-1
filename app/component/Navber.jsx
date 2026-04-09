@@ -21,6 +21,11 @@ const Navber = () => {
           Blogs
         </Link>
       </li>
+      <li>
+        <Link href="/dashboard" className="font-medium hover:text-primary transition">
+          Dashboard
+        </Link>
+      </li>
 
       <li>
         <Link href="/projects" className="font-medium hover:text-primary transition">
