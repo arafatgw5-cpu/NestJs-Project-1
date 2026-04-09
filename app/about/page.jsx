@@ -1,4 +1,4 @@
-import image from "../assets/my-profile.jpeg";
+// import image from "my-profile.jpeg"
 import Image from "next/image";
 
 const AboutPage = () => {
@@ -21,7 +21,7 @@ const AboutPage = () => {
           {/* Image */}
           <div className="flex justify-center">
             <Image
-              src={image}
+              src={`/my-profile.jpeg`}
               alt="profile"
               width={288}
               height={288}
