@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-
+import Image from "next/image";
 const DashBoardLayout = ({ children }) => {
   return (
     <div className="min-h-screen flex bg-gray-100">
@@ -45,11 +45,13 @@ const DashBoardLayout = ({ children }) => {
           </h2>
 
           <div className="flex items-center gap-3">
-            <img
-              src="https://i.pravatar.cc/40"
-              alt="profile"
-              className="w-10 h-10 rounded-full border"
-            />
+             <Image
+                         src="/my-profile.jpeg"
+                         alt="Easin Arafat Profile"
+                         width={60}
+                         height={60}
+                         className="rounded-full object-cover shadow-lg border-4 border-white"
+                       />
           </div>
         </header>
 
