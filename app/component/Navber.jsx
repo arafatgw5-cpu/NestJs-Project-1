@@ -26,6 +26,11 @@ const Navber = () => {
           Dashboard
         </Link>
       </li>
+      <li>
+        <Link href="/users" className="font-medium hover:text-primary transition">
+          Users
+        </Link>
+      </li>
 
       <li>
         <Link href="/projects" className="font-medium hover:text-primary transition">
