@@ -21,21 +21,10 @@ const DashBoardLayout = ({ children }) => {
             </span>
           </Link>
 
-          <Link href="/dashboard/blogs">
-            <span className="px-4 py-2 rounded-lg hover:bg-primary hover:text-white transition cursor-pointer">
-              📝 Blogs
-            </span>
-          </Link>
 
           <Link href="/dashboard/profile">
             <span className="px-4 py-2 rounded-lg hover:bg-primary hover:text-white transition cursor-pointer">
               🚀 Profile
-            </span>
-          </Link>
-
-          <Link href="/dashboard/messages">
-            <span className="px-4 py-2 rounded-lg hover:bg-primary hover:text-white transition cursor-pointer">
-              📩 Messages
             </span>
           </Link>
         </nav>
